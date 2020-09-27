@@ -1,16 +1,10 @@
 # transition_issue
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sample demonstrating an issue with custom transition in flutter. 
+When built the first time, the text on the second page is displayed but after a hot restart or reload it disappears. 
+To reproduce the bug: 
+build and run the app on an iphone real device. 
+Click on the button to go to the second page. 
+Hot restart the app. Click on the button again. 
+The text on the second page doesn't show. 
+Strangely the flutter logo is displayed
